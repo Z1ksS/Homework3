@@ -24,8 +24,8 @@ CREATE TABLE Orders(
 --Filling tables with data
 INSERT INTO Groups(gr_name, gr_temp) VALUES 
 	('Group A', 40.0), 
-	('Group Á', 45.0), 
-	('Group Â', 35.0);
+	('Group B', 45.0), 
+	('Group C', 35.0);
 INSERT INTO Analysis (an_name, an_cost, an_price, an_group) VALUES 
 	('Analysis 1', 100.0, 150.0, 1), 
 	('Analysis 2', 200.0, 300.0, 1), 
