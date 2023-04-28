@@ -1,4 +1,4 @@
---Створення таблиць
+--Creating tables
 CREATE TABLE Groups (
 	gr_id INT IDENTITY(1,1) PRIMARY KEY,
 	gr_name VARCHAR(50) NOT NULL,
@@ -21,7 +21,7 @@ CREATE TABLE Orders(
 	FOREIGN KEY (ord_an) REFERENCES Analysis(an_id)
 );
 
---Заповнення таблиць даними
+--Filling tables with data
 INSERT INTO Groups(gr_name, gr_temp) VALUES 
 	('Group A', 40.0), 
 	('Group Б', 45.0), 
